@@ -19,5 +19,10 @@ public class RabbitConfig {
     public MessageConverter jsonMessageConverter(){
         return new Jackson2JsonMessageConverter();
     }
+    
+    @Bean
+    public Queue queue() {
+        return new Queue(QUEUE_NAME, true); 
+    }
 
 }

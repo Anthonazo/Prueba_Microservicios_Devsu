@@ -31,7 +31,7 @@ public class TransactionMapper {
         }
 
         TransactionDto transactionDto = new TransactionDto(
-                transaction.getAccountId(), transaction.getDate(),
+                transaction.getId(), transaction.getDate(),
                 transaction.getType(), transaction.getAmount(),
                 transaction.getBalance(), transaction.getAccountId());
 

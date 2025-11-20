@@ -40,7 +40,7 @@ El sistema requiere **RabbitMQ** para el manejo de la mensajería asíncrona des
 **Pre-requisitos:**
 Debe tener RabbitMQ instalado y ejecutándose en su entorno (Windows, Ubuntu o Docker).
 
-#### ⚠️ Configuración Manual Crítica
+#### ⚠️ Configuración Manual Crítica en caso de que las colas no se levanten automaticamente
 
 Antes de ejecutar la aplicación, es necesario crear manualmente una cola específica para evitar errores de tipo `Queue Not Found`. Por favor, siga estos pasos:
 

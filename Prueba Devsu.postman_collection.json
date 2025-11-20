@@ -333,7 +333,7 @@
 					"response": []
 				},
 				{
-					"name": "http://localhost:8001/api/clients",
+					"name": "http://localhost:8000/api/accounts/1",
 					"request": {
 						"method": "GET",
 						"header": [
@@ -355,23 +355,24 @@
 							}
 						],
 						"url": {
-							"raw": "http://localhost:8001/api/clients",
+							"raw": "http://localhost:8000/api/accounts/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8001",
+							"port": "8000",
 							"path": [
 								"api",
-								"clients"
+								"accounts",
+								"1"
 							]
 						},
-						"description": "Generated from cURL: curl --request GET \\\r\n  --url http://localhost:8001/api/clients \\\r\n  --header 'Accept: */*' \\\r\n  --header 'Accept-Encoding: gzip, deflate, br' \\\r\n  --header 'Connection: keep-alive' \\\r\n  --header 'User-Agent: EchoapiRuntime/1.1.0'"
+						"description": "Generated from cURL: curl --request GET \\\r\n  --url http://localhost:8000/api/accounts/1 \\\r\n  --header 'Accept: */*' \\\r\n  --header 'Accept-Encoding: gzip, deflate, br' \\\r\n  --header 'Connection: keep-alive' \\\r\n  --header 'User-Agent: EchoapiRuntime/1.1.0'"
 					},
 					"response": []
 				},
 				{
-					"name": "http://localhost:8001/api/clients/1",
+					"name": "http://localhost:8000/api/accounts",
 					"request": {
 						"method": "GET",
 						"header": [
@@ -393,19 +394,18 @@
 							}
 						],
 						"url": {
-							"raw": "http://localhost:8001/api/clients/1",
+							"raw": "http://localhost:8000/api/accounts",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8001",
+							"port": "8000",
 							"path": [
 								"api",
-								"clients",
-								"1"
+								"accounts"
 							]
 						},
-						"description": "Generated from cURL: curl --request GET \\\r\n  --url http://localhost:8001/api/clients/1 \\\r\n  --header 'Accept: */*' \\\r\n  --header 'Accept-Encoding: gzip, deflate, br' \\\r\n  --header 'Connection: keep-alive' \\\r\n  --header 'User-Agent: EchoapiRuntime/1.1.0'"
+						"description": "Generated from cURL: curl --request GET \\\r\n  --url http://localhost:8000/api/accounts \\\r\n  --header 'Accept: */*' \\\r\n  --header 'Accept-Encoding: gzip, deflate, br' \\\r\n  --header 'Connection: keep-alive' \\\r\n  --header 'User-Agent: EchoapiRuntime/1.1.0'"
 					},
 					"response": []
 				},
@@ -708,12 +708,12 @@
 							}
 						],
 						"url": {
-							"raw": "http://localhost:8080/api/transactions/1/report?dateTransactionStart=2025-11-01&dateTransactionEnd=2026-11-19",
+							"raw": "http://localhost:8000/api/transactions/1/report?dateTransactionStart=2024-11-01&dateTransactionEnd=2026-11-19",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8080",
+							"port": "8000",
 							"path": [
 								"api",
 								"transactions",
@@ -723,7 +723,7 @@
 							"query": [
 								{
 									"key": "dateTransactionStart",
-									"value": "2025-11-01"
+									"value": "2024-11-01"
 								},
 								{
 									"key": "dateTransactionEnd",
