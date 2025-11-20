@@ -33,7 +33,7 @@ Para mantener el desacoplamiento entre servicios y garantizar la integridad de l
 
 ## ⚙️ Infraestructura y Configuración
 
-### Configuración de RabbitMQ (Requerido)
+### Configuración de RabbitMQ Requerido en caso de que las colas no se levanten automaticamente
 
 El sistema requiere **RabbitMQ** para el manejo de la mensajería asíncrona descrita anteriormente.
 
